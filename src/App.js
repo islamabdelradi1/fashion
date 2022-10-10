@@ -18,7 +18,7 @@ function App() {
   const [products,setproducts]=useState([]);
 
   useEffect(()=>{
-      axios.get('http://localhost:9000/products/')
+      axios.get('../db.json')
       .then( (res)=> {
         // handle success
         setproducts(res.data);
