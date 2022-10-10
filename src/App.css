@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.slid {
+    height: 100vh;
+
+}
+.slid img{
+    transform: skewX(0deg);
+    float: right;
+    position: relative;
+    z-index: 1;
+
+}
+
+.imgon{
+    background-color: #ffffff2d;
+    position: relative;
+    z-index: 9;
+    width: 962px;
+    height: 490px;
+    transform: skewX(348deg) !important;
+}
+.imgon2{
+    background-color: #ffffff2d;
+    position: relative;
+    left: 1590px;
+    top: -495px;
+    z-index: 9;
+    width: 206px;
+    height: 500px;
+    transform: skewX(348deg) !important;
+}
+.swiper-wrapper{
+    height: 400px !important;
+}
+.mySwiper{
+
+}
+.whtp{
+    transform:rotate(45deg);
+}
+.klamonimg{
+    background-color: rgba(23, 24, 24, 0.356);
+}
+.divabimg .imgdiv{
+    transition: all ease-in-out 0.5s;
+
+}
+.divabimg:hover  .imgdiv{
+    transform: scale(1.2);
+    transition: all ease-in-out 0.5s;
+
+}
+.btnshop:hover{
+    background-color: rgba(239, 239, 240, 0.219);
+}
+.bordersec1{
+    border-bottom: 1px solid rgba(150, 149, 149, 0.24);
+    border-top: 1px solid rgba(150, 149, 149, 0.24);
+
+}
+#del{
+    display: none;
+}
+.swiperr{
+    padding-top: 70px !important;
+}
+/* #root > div > div:nth-child(4) > div.container > div > div.swiper-button-next{
+    top: 25px !important;
+    width: 40px !important;
+    right: 191px  !important;
+    color: black !important;
+
+}
+#root > div > div:nth-child(4) > div.container > div > div.swiper-button-next:hover{
+    color: rgb(185, 185, 185) !important;
+
+} */
+/* #root > div > div:nth-child(4) > div.container > div > div.swiper-button-prev{
+    top: -445px !important;
+    width: 40px !important;
+    left: 1250px  !important;
+    color: black !important;
+    position: relative;
+
+
+} */
+/* #root > div > div:nth-child(4) > div.container > div > div.swiper-button-prev:hover{
+    color: rgb(185, 185, 185) !important;
+
+} */
+
+:root {
+    --swiper-navigation-size: 20px !important;
+}
+#root > div > div:nth-child(4) > div.container > div > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+}
+.spansel{
+    background-color: rgba(83, 83, 83, 0.384);
+    display: flex;
+    width: 140px;
+    z-index: 1;
+
+}
+.nextui-c-cFCyVg-euOgUp-color-success{
+    --nextui--tooltipColor:var(--nextui-colors-gray300) !important;
+}
+.imgs4{
+    transition: all ease-in-out 0.50s;
+}
+.imgs4:hover{
+    transform: scale(1.2);
+}
+.imgs4blog:hover{
+    color: black;
+}
+.dotimg{
+    display: none;
+}
+.abimg:hover .dotimg{
+    display: flex;
+    background-color: rgba(65, 64, 64, 0.253);
+    height: 100%;
+    width: 100%;
+}
+#root > div > div:nth-child(5) > div.container > div > div.swiper-button-prev{
+    top: 25px !important;
+    width: 40px !important;
+    left: 1342px  !important;
+    color: black !important;
+}
+#root > div > div:nth-child(5) > div.container > div > div.swiper-button-next{
+    top: 25px !important;
+    width: 40px !important;
+    right: 90px  !important;
+    color: black !important;
+}
+
+
+#root > div > div:nth-child(5) > div.container > div > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+}
+.btns{
+    background-color: #1c7ed6 !important;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
