@@ -17,7 +17,7 @@ function Veiwsslide({coun}) {
     const [count, handlers] = useCounter(0, { min: 0, max: 10 });
 
         useEffect(()=>{
-        axios.get(`http://localhost:9000/products/${id}`)
+        axios.get(`https://fashion-beta.vercel.app/products/${id}`)
         .then( (res)=> {
         // handle success
         setproducts(res.data);
