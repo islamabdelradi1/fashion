@@ -21,7 +21,7 @@ function Blogs() {
     const [products,setproducts]=useState([]);
 
 useEffect(()=>{
-    axios.get('https://fashion-beta.vercel.app/products/')
+    axios.get('http://localhost:9000/products/')
     .then( (res)=> {
       // handle success
       setproducts(res.data);
